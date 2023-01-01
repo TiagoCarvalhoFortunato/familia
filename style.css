@@ -14,14 +14,29 @@ h1 {
     text-align: center;
 }
 
+menu {
+    display: inline-block;
+}
+
 header input#card {
     width: 40px;
     background-color: aquamarine;
 }
 
-ul#lista {
+p#lista {
     display: none;
+    
 }
+
+p#lista input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+    padding: 5px;
+    margin: 5px;
+    background-color: aqua;
+}
+
 
 #fcarol {
     display: none;
@@ -31,9 +46,59 @@ ul#lista {
 
     transform: translate(-50%, 50%);
 }
+#ftiago {
+    display: none;
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+
+    transform: translate(-50%, 50%);
+}
+#ftainara {
+    display: none;
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+
+    transform: translate(-50%, 50%);
+}
+#fvini {
+    display: none;
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+
+    transform: translate(-50%, 50%);
+}
+#fcleide {
+    display: none;
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+
+    transform: translate(-50%, 50%);
+}
+
+
+#ica:hover {
+    transform: translate(10%, -5%);
+}
+#iti:hover {
+    transform: translate(10%, -5%);
+}
+#ita:hover {
+    transform: translate(10%, -5%);
+}
+#ivi:hover {
+    transform: translate(10%, -5%);
+}
+#icl:hover {
+    transform: translate(10%, -5%);
+}
+
 
 #moldura {
-    position: fixed;
+    position: absolute;
     left: 50%;
     bottom: 50%;
 
@@ -43,11 +108,12 @@ ul#lista {
 
 
 footer {
+    width: 250px;
     text-align: center;
     padding-bottom: 10px;
-    position: fixed;
+    position: absolute;
     bottom: 0%;
-    left: 40%;
-    
-    
+    left: 50%;
+
+    transform: translateX(-50%);
 }
