@@ -1,13 +1,23 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #1C1B45;
+    --cor2: #233660;
+    --cor3: #F8C3B1;
+    --cor4: #FCE4E2;
+    --cor5: #FFFFFF;
+}
+
+
 * {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    color: var(--cor1);
 }
 
 body {
-    background-color: aquamarine;
+    background-color: var(--cor3);
 }
 
 h1 {
@@ -20,7 +30,7 @@ menu {
 
 header input#card {
     width: 40px;
-    background-color: aquamarine;
+    
 }
 
 p#lista {
@@ -29,12 +39,13 @@ p#lista {
 }
 
 p#lista input {
+    background-color: var(--cor4);
     border: none;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.514);
     padding: 5px;
     margin: 5px;
-    background-color: aqua;
+    width: 80px;
 }
 
 
@@ -55,6 +66,7 @@ p#lista input {
     transform: translate(-50%, 50%);
 }
 #ftainara {
+    background-color: black;
     display: none;
     position: fixed;
     left: 50%;
@@ -70,14 +82,7 @@ p#lista input {
 
     transform: translate(-50%, 50%);
 }
-#fcleide {
-    display: none;
-    position: fixed;
-    left: 50%;
-    bottom: 50%;
 
-    transform: translate(-50%, 50%);
-}
 
 
 #ica:hover {
@@ -92,9 +97,7 @@ p#lista input {
 #ivi:hover {
     transform: translate(10%, -5%);
 }
-#icl:hover {
-    transform: translate(10%, -5%);
-}
+
 
 
 #moldura {
