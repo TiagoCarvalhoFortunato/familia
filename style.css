@@ -21,6 +21,7 @@ body {
 }
 
 h1 {
+    font-size: 20pt;
     text-align: center;
     color: var(--cor5);
 }
