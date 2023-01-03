@@ -19,6 +19,11 @@ function escolha() {
         fototaina.style.display = 'none'
         fotovini.style.display = 'none'
 
+        logoca.style.display = 'none'
+        logoti.style.display = 'none'
+        logota.style.display = 'none'
+        logovi.style.display = 'none'
+
     if (list.style.display == 'block') {
         list.style.display = 'none'
     } else {
