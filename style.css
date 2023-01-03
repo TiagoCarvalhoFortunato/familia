@@ -13,19 +13,24 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--cor1);
+    
 }
 
 body {
-    background-color: var(--cor3);
+    background-image: url('imagens/tijolo.jpg');
 }
 
 h1 {
     text-align: center;
+    color: var(--cor5);
 }
 
 menu {
+    border-radius: 10px;
+    margin-left: 5px;
     display: inline-block;
+    color: white;
+    background-color: var(--cor4);
 }
 
 header input#card {
@@ -39,13 +44,17 @@ p#lista {
 }
 
 p#lista input {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     border: none;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.514);
     padding: 5px;
     margin: 5px;
-    width: 80px;
+    width: 65px;
+}
+
+#lista input:hover {
+    transform: translate(10%, -5%);
 }
 
 
@@ -84,28 +93,35 @@ p#lista input {
 }
 
 
-
-#ica:hover {
-    transform: translate(10%, -5%);
-}
-#iti:hover {
-    transform: translate(10%, -5%);
-}
-#ita:hover {
-    transform: translate(10%, -5%);
-}
-#ivi:hover {
-    transform: translate(10%, -5%);
-}
-
-
-
 #moldura {
     position: absolute;
     left: 50%;
     bottom: 50%;
 
     transform: translate(-50%, 50%);
+}
+
+#logo{
+    position: absolute;
+    left: 50%;
+    bottom: 8%;
+
+    transform: translate(-50%, -40%);
+
+}
+
+#logo img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.562);
+    box-sizing: border-box;
+    
+    
+}
+
+#logo img:hover {
+    transform: translate(10%, -5%);
 }
 
 
@@ -117,6 +133,7 @@ footer {
     position: absolute;
     bottom: 0%;
     left: 50%;
+    color: var(--cor5);
 
     transform: translateX(-50%);
 }

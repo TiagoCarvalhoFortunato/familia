@@ -7,8 +7,17 @@ var fototiago = document.getElementById('ftiago')
 var fototaina = document.getElementById('ftainara')
 var fotovini = document.getElementById('fvini')
 
+var ins = document.getElementById('instagram')
+var fac = document.getElementById('facebook')
+var you = document.getElementById('youtube')
+
 
 function escolha() {
+        fotocarol.style.display = 'none'
+        fototiago.style.display = 'none'
+        fototaina.style.display = 'none'
+        fotovini.style.display = 'none'
+
     if (list.style.display == 'block') {
         list.style.display = 'none'
     } else {
@@ -27,6 +36,7 @@ function escolha() {
 
             } else {
              fotocarol.style.display = 'none'
+             
             }
     }
 
