@@ -12,6 +12,10 @@ var logoti = document.getElementById('ltiago')
 var logota = document.getElementById('ltainara')
 var logovi = document.getElementById('lvini')
 
+c = 0
+t = 0
+tain = 0
+v = 0
 
 function escolha() {
         fotocarol.style.display = 'none'
@@ -46,9 +50,14 @@ function escolha() {
                 logota.style.display ='none'
                 logovi.style.display ='none'
 
+                c++
+             
+
             } else {
              fotocarol.style.display = 'none'
              logoca.style.display = 'none'
+
+             
 
             }
     }
@@ -66,6 +75,8 @@ function escolha() {
                 logoti.style.display ='block'
                 logota.style.display ='none'
                 logovi.style.display ='none'
+
+                t++
 
             } else {
                 fototiago.style.display = 'none'
@@ -87,6 +98,8 @@ function escolha() {
                 logota.style.display ='block'
                 logovi.style.display ='none'
 
+                tain++
+
             } else {
                 fototaina.style.display = 'none'
                 logota.style.display = 'none'
@@ -107,9 +120,24 @@ function escolha() {
                 logota.style.display ='none'
                 logovi.style.display ='block'
 
+                v++
+
             } else {
                 fotovini.style.display = 'none'
                 logovi.style.display = 'none'
             }
+    }
+
+    function carol(){
+        res.innerHTML = 'O perfil da Carol teve ' + c + ' acesso(s).'
+    }
+    function tiago(){
+        res.innerHTML = 'O perfil da Tiago teve ' + t + ' acesso(s).'
+    }
+    function tai(){
+        res.innerHTML = 'O perfil da Tainara teve ' + tain + ' acesso(s).'
+    }
+    function vini(){
+        res.innerHTML = 'O perfil da Vinícius teve ' + v + ' acesso(s).'
     }
     

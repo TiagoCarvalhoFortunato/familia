@@ -106,7 +106,7 @@ p#lista input {
 #ltiago, #lcarol, #ltainara, #lvini{
     position: absolute;
     left: 50%;
-    bottom: 8%;
+    bottom: 10%;
 
     transform: translate(-50%, -40%);
 
@@ -144,6 +144,16 @@ p#lista input {
     box-shadow: -4px 4px 4px black;
 }
 
+#res {
+    position: absolute;
+    left: 50%;
+    bottom: 75%;
+    font-size: 20px;
+    color: white;
+
+    transform: translate(-50%, -40%);
+}
+
 
 
 footer {
@@ -156,4 +166,16 @@ footer {
     color: var(--cor5);
 
     transform: translateX(-50%);
+}
+
+footer input {
+    border-radius: 10px;
+    padding: 5px;
+    margin: 1px;
+    background-color: var(--cor1);
+    color: var(--cor4);
+}
+
+footer input:hover {
+    background-color: var(--cor2);
 }
