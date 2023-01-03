@@ -103,7 +103,7 @@ p#lista input {
     transform: translate(-50%, 50%);
 }
 
-#logo{
+#ltiago, #lcarol, #ltainara, #lvini{
     position: absolute;
     left: 50%;
     bottom: 8%;
@@ -112,7 +112,23 @@ p#lista input {
 
 }
 
-#logo img{
+#ltiago {
+    display: none;
+}
+
+#ltainara {
+    display: none;
+}
+
+#lvini {
+    display: none;
+}
+
+#lcarol {
+    display: none;
+}
+
+#ltiago img, #lcarol img, #ltainara img, #lvini img{
     width: 40px;
     margin: 10px;
     border-radius: 50%;
@@ -122,8 +138,10 @@ p#lista input {
     
 }
 
-#logo img:hover {
+#ltiago img:hover, #lcarol img:hover,
+#ltainara img:hover, #lvini img:hover {
     transform: translate(10%, -5%);
+    box-shadow: -4px 4px 4px black;
 }
 
 
