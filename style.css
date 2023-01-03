@@ -26,6 +26,7 @@ h1 {
 }
 
 menu {
+    padding: 3px;
     border-radius: 10px;
     margin-left: 5px;
     display: inline-block;
