@@ -17,8 +17,6 @@ t = 0
 tain = 0
 v = 0
 
-window.alert ('Os botões inferior é para contagem de clique que cada perfil teve, para resete att a página')
-
 function escolha() {
         fotocarol.style.display = 'none'
         fototiago.style.display = 'none'
