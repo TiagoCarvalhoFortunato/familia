@@ -96,11 +96,17 @@ p#lista input {
 
 
 #moldura {
+    display: block;
     position: absolute;
     left: 50%;
     bottom: 50%;
+    box-shadow: 2px 2px 4px black;
 
     transform: translate(-50%, 50%);
+}
+
+#molpa{
+    display: none;
 }
 
 #ltiago, #lcarol, #ltainara, #lvini{

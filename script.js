@@ -132,12 +132,12 @@ function escolha() {
         res.innerHTML = 'O perfil da Carol teve ' + c + ' acesso(s).'
     }
     function tiago(){
-        res.innerHTML = 'O perfil da Tiago teve ' + t + ' acesso(s).'
+        res.innerHTML = 'O perfil do Tiago teve ' + t + ' acesso(s).'
     }
     function tai(){
         res.innerHTML = 'O perfil da Tainara teve ' + tain + ' acesso(s).'
     }
     function vini(){
-        res.innerHTML = 'O perfil da Vinícius teve ' + v + ' acesso(s).'
+        res.innerHTML = 'O perfil do Vinícius teve ' + v + ' acesso(s).'
     }
     
